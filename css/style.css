@@ -107,7 +107,7 @@ h1, h2, h3 { font-family: var(--font-title); line-height: 1.15; }
 .btn-outline { background: transparent; border-color: var(--text);color: var(--text); }
 .btn-outline:hover { background: var(--text); border-color: var(--text); color: #fff; }
 
-.btn-white { background: #fff; border-color: #fff; }
+.btn-white { background: #fff; border-color: #fff;var(--text); }
 .btn-white:hover { background: var(--soft-blue); border-color: var(--soft-blue); }
 
 /* ---------- Hero ---------- */
