@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CiclaCards | E-books pedagógicos</title>
+    <meta name="description" content="CiclaCards reúne e-books pedagógicos em PDF para professores e profissionais da educação.">
+    <meta name="theme-color" content="#27BAFB">
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+    <div class="container header-content">
+        <a href="#inicio" class="logo">
+            <img src="images/logo.png" alt="Logo CiclaCards">
+            <span>CiclaCards</span>
+        </a>
+        <nav class="nav" aria-label="Principal">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#produtos">E-books</a>
+            <a href="#redes">Redes sociais</a>
+        </nav>
+        <a href="https://play.google.com/store/apps/details?id=com.cicladventure.cicla_cards"
+           target="_blank" rel="noopener noreferrer" class="btn btn-small">Baixar o app</a>
+    </div>
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>E-books pedagógicos para planejar aulas com mais tranquilidade.</h1>
+                <p>
+                    O CiclaCards reúne materiais em PDF para professores e
+                    profissionais da educação. Escolha o e-book, baixe e use
+                    em sala de aula.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://play.google.com/store/apps/details?id=com.cicladventure.cicla_cards"
+                       target="_blank" rel="noopener noreferrer" class="btn">Baixar o app CiclaCards</a>
+                    <a href="#produtos" class="btn btn-outline">Ver e-books</a>
+                </div>
+                <p class="hero-note">Materiais digitais em PDF, vendidos pelo Google Play Livros.</p>
+            </div>
+
+            <div class="hero-image">
+                <img src="images/app-principal.png" alt="Tela principal do aplicativo CiclaCards" class="app-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="about section" id="sobre">
+        <div class="container about-content">
+            <h2>Uma plataforma feita para quem ensina.</h2>
+            <div class="about-text">
+                <p>
+                    O CiclaCards é uma plataforma que reúne e-books pedagógicos
+                    em PDF, pensados para professores e profissionais da
+                    educação que buscam novos conteúdos e recursos para suas
+                    atividades.
+                </p>
+                <p>
+                    Explore os materiais disponíveis e encontre o que pode
+                    contribuir para o seu dia a dia educacional.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section class="products section" id="produtos">
+        <div class="container">
+
+            <div class="section-heading">
+                <div>
+                    <h2>E-books em destaque</h2>
+                    <p>Alguns dos materiais disponíveis na plataforma.</p>
+                </div>
+                <div class="carousel-buttons">
+                    <button class="carousel-btn" id="prevBtn" aria-label="Ver e-books anteriores">&#8592;</button>
+                    <button class="carousel-btn" id="nextBtn" aria-label="Ver próximos e-books">&#8594;</button>
+                </div>
+            </div>
+
+            <div class="carousel-track" id="carouselTrack" tabindex="0" aria-label="Lista de e-books">
+
+                <!-- Capas: 800x1100 px -->
+                <article class="product-card">
+                    <a href="https://play.google.com/store/apps/details?id=com.cicladventure.cicla_cards" target="_blank" rel="noopener noreferrer">
+                        <div class="product-cover">
+                            <img src="images/ebook-1.jpg" width="800" height="1100" alt="Capa do e-book Animais de A a Z" loading="lazy">
+                        </div>
+                        <h3>Animais de A a Z</h3>
+                        <span class="product-link">Conhecer material</span>
+                    </a>
+                </article>
+
+                <article class="product-card">
+                    <a href="https://play.google.com/store/apps/details?id=com.cicladventure.cicla_cards" target="_blank" rel="noopener noreferrer">
+                        <div class="product-cover">
+                            <img src="images/ebook-2.jpg" width="800" height="1100" alt="Capa do e-book Etiquetas escolares" loading="lazy">
+                        </div>
+                        <h3>Etiquetas escolares</h3>
+                        <span class="product-link">Conhecer material</span>
+                    </a>
+                </article>
+
+                <article class="product-card">
+                    <a href="https://play.google.com/store/apps/details?id=com.cicladventure.cicla_cards" target="_blank" rel="noopener noreferrer">
+                        <div class="product-cover">
+                            <img src="images/ebook-3.jpg" width="800" height="1100" alt="Capa do e-book O leão Caio" loading="lazy">
+                        </div>
+                        <h3>O leão Caio</h3>
+                        <span class="product-link">Conhecer material</span>
+                    </a>
+                </article>
+
+                <article class="product-card">
+                    <a href="https://play.google.com/store/apps/details?id=com.cicladventure.cicla_cards" target="_blank" rel="noopener noreferrer">
+                        <div class="product-cover">
+                            <img src="images/ebook-4.jpg" width="800" height="1100" alt="Capa do e-book Rotina Diária" loading="lazy">
+                        </div>
+                        <h3>Rotina Diária</h3>
+                        <span class="product-link">Conhecer material</span>
+                    </a>
+                </article>
+
+                <article class="product-card">
+                    <a href="https://play.google.com/store/apps/details?id=com.cicladventure.cicla_cards" target="_blank" rel="noopener noreferrer">
+                        <div class="product-cover">
+                            <img src="images/ebook-5.jpg" width="800" height="1100" alt="Capa do e-book Rotina Escolar" loading="lazy">
+                        </div>
+                        <h3>Rotina Escolar</h3>
+                        <span class="product-link">Conhecer material</span>
+                    </a>
+                </article>
+
+                <article class="product-card">
+                    <a href="https://play.google.com/store/apps/details?id=com.cicladventure.cicla_cards" target="_blank" rel="noopener noreferrer">
+                        <div class="product-cover">
+                            <img src="images/ebook-6.jpg" width="800" height="1100" alt="Capa do e-book Atividade para ler, pontilhar e pintar" loading="lazy">
+                        </div>
+                        <h3>Atividade para ler, pontilhar e pintar!</h3>
+                        <span class="product-link">Conhecer material</span>
+                    </a>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section class="how-it-works section">
+        <div class="container how-content">
+            <div class="how-intro">
+                <h2>Como acessar os materiais</h2>
+                <p>Do aplicativo ao PDF, em três passos.</p>
+            </div>
+
+            <ol class="steps">
+                <li>
+                    <h3>Abra o aplicativo</h3>
+                    <p>Baixe o CiclaCards na Google Play.</p>
+                </li>
+                <li>
+                    <h3>Escolha o e-book</h3>
+                    <p>Veja os e-books pedagógicos disponíveis na plataforma.</p>
+                </li>
+                <li>
+                    <h3>Compre pelo Google Play Livros</h3>
+                    <p>Finalize a compra e acesse o material.</p>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- REDES SOCIAIS -->
+    <section class="social section" id="redes">
+        <div class="container social-content">
+            <div class="social-text">
+                <h2>Acompanhe o CiclaCards</h2>
+                <p>Novos materiais e novidades da plataforma nas nossas redes.</p>
+            </div>
+
+            <ul class="social-list">
+                <!-- Troque os "#" pelos links das suas redes -->
+                <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.8"/></svg>
+                        <span>Instagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H7v4h3v7h4v-7h3l1-4h-4V8.5c0-.3.2-.5.5-.5z"/></svg>
+                        <span>Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10 9.5v5l4.5-2.5z"/></svg>
+                        <span>YouTube</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:contato@seudominio.com.br">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 7 8.5-7"/></svg>
+                        <span>E-mail</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- CHAMADA FINAL -->
+    <section class="cta-section">
+        <div class="container cta-content">
+            <div>
+                <h2>Conheça os materiais do CiclaCards.</h2>
+                <p>Baixe o aplicativo e veja os e-books disponíveis.</p>
+            </div>
+            <a href="https://play.google.com/store/apps/details?id=com.cicladventure.cicla_cards"
+               target="_blank" rel="noopener noreferrer" class="btn btn-white">Acessar na Google Play</a>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer-content">
+        <a href="#inicio" class="logo footer-logo">
+            <img src="images/logo.png" alt="Logo CiclaCards">
+            <span>CiclaCards</span>
+        </a>
+        <p>E-books pedagógicos para profissionais da educação.</p>
+        <div class="footer-bottom">
+            <span>&copy; <span id="year"></span> CiclaCards. Todos os direitos reservados.</span>
+            <a href="https://play.google.com/store/apps/details?id=com.cicladventure.cicla_cards"
+               target="_blank" rel="noopener noreferrer">Google Play</a>
+        </div>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
